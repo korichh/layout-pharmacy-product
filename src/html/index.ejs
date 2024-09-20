@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('./components/root/head.ejs', { title: 'Home' }) %>
+
+<body>
+    <div class="page">
+        <%- include('./components/root/header.ejs') %>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__image">
+                            <img src="img/hero/drug.webp" alt="drug image" loading="lazy" width="332" height="320">
+                        </div>
+                        <div class="hero__content">
+                            <h1>Дженагра</h1>
+                            <p>- лікарський засіб, що застосовується для терапії еректильної дисфункції.</p>
+                            <div class="hero__btns">
+                                <a href="#order" class="btn hero__btn">Замовити</a>
+                                <a href="#instruction" class="btn hero__btn">Завантажити інструкцію</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="features">
+                <div class="container">
+                    <div class="features__inner">
+                        <div class="features__content">
+                            <h2 id="features" class="title_prim">Характеристики</h2>
+                        </div>
+                        <div class="features__warning">
+                            <ul class="features__list">
+                                <li class="features__list-item features-card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><span class="icon-pregnancy"></span></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Вагітним</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features__list-item features__card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><span class="icon-allergy"></span></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Алергікам</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features__list-item features__card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><span class="icon-diabet"></span></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">При діабеті</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features__list-item features__card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><span class="icon-drive"></span></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Водіям</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features__list-item features__card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><span class="icon-alcohol"></span></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">З алкоголем</h3>
+                                            <p class="features-card__text">не можна</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="features__list-item features__card">
+                                    <div class="features-card__inner">
+                                        <div class="features-card__icon"><span class="icon-receipt"></span></div>
+                                        <div class="features-card__content">
+                                            <h3 class="features-card__title">Відпускається</h3>
+                                            <p class="features-card__text">без рецепту</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="instruction">
+                <div class="container">
+                    <div class="instruction__inner">
+                        <div class="instruction__content">
+                            <h2 id="instruction" class="title_prim">Інструкція</h2>
+                        </div>
+                        <div class="instruction__accs accs _closable content" itemscope="" itemtype="https://schema.org/FAQPage">
+                            <div class="acc _active" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="acc__inner">
+                                    <button class="acc__head">
+                                        <span itemprop="name">Де придбати Дженагру</span><span class="icon-arrow"></span>
+                                    </button>
+                                    <div class="acc__body" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                        <div itemprop="text">
+                                            <h3>Lorem, ipsum dolor.</h3>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam, commodi expedita laudantium saepe tempore sint amet, illum voluptatem odit, cupiditate eveniet! Officia ex, neque modi rem necessitatibus esse obcaecati?</p>
+                                            <ul>
+                                                <li>Lorem ipsum dolor sit.</li>
+                                                <li>Lorem ipsum dolor sit.</li>
+                                            </ul>
+                                            <h4>Lorem, ipsum dolor.</h4>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum iusto neque, doloremque nulla quod nesciunt in placeat, ea tempora a officiis fugiat aut incidunt quaerat impedit voluptatem doloribus ullam error!</p>
+                                            <ol>
+                                                <li>Lorem ipsum dolor sit.</li>
+                                                <li>Lorem ipsum dolor sit.</li>
+                                                <li>Lorem ipsum dolor sit.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="acc" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="acc__inner">
+                                    <button class="acc__head">
+                                        <span itemprop="name">Склад препарату</span><span class="icon-arrow"></span>
+                                    </button>
+                                    <div class="acc__body" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                        <div itemprop="text">
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam, commodi expedita laudantium saepe tempore sint amet, illum voluptatem odit, cupiditate eveniet! Officia ex, neque modi rem necessitatibus esse obcaecati?</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laborum asperiores, laboriosam ad beatae adipisci vero quaerat eveniet cupiditate voluptate. Alias consequatur qui ea voluptates molestias sapiente nemo similique aperiam?</p>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum iusto neque, doloremque nulla quod nesciunt in placeat, ea tempora a officiis fugiat aut incidunt quaerat impedit voluptatem doloribus ullam error!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="acc" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="acc__inner">
+                                    <button class="acc__head">
+                                        <span itemprop="name">Свідчення</span><span class="icon-arrow"></span>
+                                    </button>
+                                    <div class="acc__body" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                        <div itemprop="text">
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam, commodi expedita laudantium saepe tempore sint amet, illum voluptatem odit, cupiditate eveniet! Officia ex, neque modi rem necessitatibus esse obcaecati?</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laborum asperiores, laboriosam ad beatae adipisci vero quaerat eveniet cupiditate voluptate. Alias consequatur qui ea voluptates molestias sapiente nemo similique aperiam?</p>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum iusto neque, doloremque nulla quod nesciunt in placeat, ea tempora a officiis fugiat aut incidunt quaerat impedit voluptatem doloribus ullam error!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="acc" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+                                <div class="acc__inner">
+                                    <button class="acc__head">
+                                        <span itemprop="name">Протипоказання</span><span class="icon-arrow"></span>
+                                    </button>
+                                    <div class="acc__body" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
+                                        <div itemprop="text">
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam, commodi expedita laudantium saepe tempore sint amet, illum voluptatem odit, cupiditate eveniet! Officia ex, neque modi rem necessitatibus esse obcaecati?</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laborum asperiores, laboriosam ad beatae adipisci vero quaerat eveniet cupiditate voluptate. Alias consequatur qui ea voluptates molestias sapiente nemo similique aperiam?</p>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum iusto neque, doloremque nulla quod nesciunt in placeat, ea tempora a officiis fugiat aut incidunt quaerat impedit voluptatem doloribus ullam error!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="order">
+                <div class="container">
+                    <div class="order__inner">
+                        <div class="order__content">
+                            <h2 id="order" class="title_prim">Замовити</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laboriosam doloremque, nisi ex cum fugit? Porro corrupti quaerat unde exercitationem illum! Exercitationem enim, maiores suscipit pariatur ullam excepturi! Laudantium, voluptatibus.</p>
+                        </div>
+                        <form class="order__form order-form">
+                            <div class="order-form__inner">
+                                <div class="order-form__selects">
+                                    <div class="order-form__dose">
+                                        <span>Дозування</span>
+                                        <div class="select">
+                                            <button class="select__selected"><span class="select__selected-value">Обрати</span><span class="icon-arrow"></span></button>
+                                            <div class="select__options">
+                                                <button data-price="119.22">genagra® 100mg * 12</button>
+                                                <button data-price="495.35">genagra® 100mg * 60</button>
+                                                <button data-price="91.69">genagra® 100mg * 8</button>
+                                                <button data-price="183.43">genagra® 100mg * 20</button>
+                                                <button data-price="275.17">genagra® 100mg * 32</button>
+                                                <button data-price="37.57">genagra 100mg * 10</button>
+                                                <button data-price="45.82">genagra 100mg * 20</button>
+                                                <button data-price="59.59">genagra 100mg * 30</button>
+                                                <button data-price="88.02">genagra 100mg * 60</button>
+                                                <button data-price="126.56">genagra 100mg * 120</button>
+                                                <button data-price="103.21">genagra 100mg * 90</button>
+                                                <button data-price="173.34">genagra 100mg * 180</button>
+                                                <button data-price="297.19">genagra 100mg * 360</button>
+                                                <button data-price="235.31">genagra 100mg * 270</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order-form__count">
+                                        <span>Кількість</span>
+                                        <div class="count">
+                                            <button class="count__btn count__decr">-</button>
+                                            <input class="count__input" type="number" value="1" min="1" max="20" required>
+                                            <button class="count__btn count__incr">+</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-form__submit">
+                                    <div class="order-form__price" data-price="37.57" data-currency="€">Від 37.57 €</div>
+                                    <button class="btn order-form__buy">Замовити</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <%- include('./components/root/footer.ejs') %>
+        <a href="#" class="scroll-top"><span class="icon-arrow"></span></a>
+    </div>
+</body>
+
+</html>
